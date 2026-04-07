@@ -1,9 +1,8 @@
 aid: open-podcast-api-open-podcast-api
 name: Open Podcast API | Open Podcast API
 description: >-
-  The Open Podcast API is an initiative aiming to provide a feature-complete
-  synchronization API specification for podcast (web) apps and user-focused
-  servers. 
+  The Open Podcast API is an initiative aiming to provide a feature-complete synchronization
+  API specification for podcast (web) apps and user-focused servers.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -19,9 +18,8 @@ apis:
   - aid: open-podcast-api-open-podcast-api:open-podcast-api-open-podcast-api
     name: Open Podcast API | Open Podcast API
     description: >-
-      The Open Podcast API is an initiative aiming to provide a feature-complete
-      synchronization API specification for podcast (web) apps and user-focused
-      servers. 
+      The Open Podcast API is an initiative aiming to provide a feature-complete synchronization
+      API specification for podcast (web) apps and user-focused servers.
     humanURL: ' https://openpodcastapi.org/'
     tags:
       - API
