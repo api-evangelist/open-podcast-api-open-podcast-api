@@ -107,7 +107,7 @@ common:
     url: https://openpodcastapi.org/
   - type: Documentation
     url: https://openpodcastapi.org/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/openpodcastapi
   - type: Discussions
     url: https://github.com/orgs/openpodcastapi/discussions
