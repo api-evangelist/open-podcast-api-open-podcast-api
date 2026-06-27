@@ -109,7 +109,7 @@ common:
     url: https://openpodcastapi.org/
   - type: GitHubOrganization
     url: https://github.com/openpodcastapi
-  - type: Discussions
+  - type: Forums
     url: https://github.com/orgs/openpodcastapi/discussions
   - type: Matrix Chat
     url: https://matrix.to/#/#openpodcastapi:matrix.org
