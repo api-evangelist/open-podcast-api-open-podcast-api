@@ -103,6 +103,8 @@ apis:
       - type: Documentation
         url: https://openpodcastapi.org/
 common:
+  - type: DomainSecurity
+    url: security/open-podcast-api-open-podcast-api-domain-security.yml
   - type: Website
     url: https://openpodcastapi.org/
   - type: Documentation
