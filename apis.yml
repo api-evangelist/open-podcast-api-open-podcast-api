@@ -28,6 +28,13 @@ tags:
   - Episodes
   - Open Standards
   - Podcasts
+  - Subscription
+  - Sync
+tags_raw:
+  - Audio
+  - Episodes
+  - Open Standards
+  - Podcasts
   - Subscriptions
   - Sync
 created: '2025-05-02'
@@ -56,6 +63,10 @@ apis:
       device.
     humanURL: https://openpodcastapi.org/
     tags:
+      - Feeds
+      - Subscription
+      - Sync
+    tags_raw:
       - Feeds
       - Subscriptions
       - Sync
