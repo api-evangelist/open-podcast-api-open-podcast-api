@@ -37,7 +37,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-podca
 tags:
   - Audio
   - Episodes
-  - Open Standards
+  - Open Standard
   - Podcasts
   - Subscription
   - Sync
@@ -74,7 +74,7 @@ apis:
       device.
     humanURL: https://openpodcastapi.org/
     tags:
-      - Feeds
+      - Feed
       - Subscription
       - Sync
     tags_raw:
@@ -130,6 +130,10 @@ apis:
       including ordering, additions, and removals of episodes.
     humanURL: https://openpodcastapi.org/
     tags:
+      - Playback
+      - Queues
+      - Sync
+    tags_raw:
       - Playback
       - Queue
       - Sync
