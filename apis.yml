@@ -141,6 +141,12 @@ apis:
       - type: Documentation
         url: https://openpodcastapi.org/
 common:
+  - type: Plans
+    url: plans/open-podcast-api-open-podcast-api-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/open-podcast-api-open-podcast-api-rate-limits.yml
+  - type: FinOps
+    url: finops/open-podcast-api-open-podcast-api-finops.yml
   - type: DomainSecurity
     url: security/open-podcast-api-open-podcast-api-domain-security.yml
   - type: Website
