@@ -1,4 +1,4 @@
-# Open Podcast API (open-podcast-api-open-podcast-api)
+# Open Podcast API
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,124 +66,106 @@
 
 The Open Podcast API is an initiative aiming to provide a feature-complete synchronization API specification for podcast (web) apps and user-focused servers. The specification covers synchronization of subscriptions, listening progress, favorites, queues, and device state across compliant clients and self-hosted servers, with the goal of giving listeners portable control of their podcast data.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/open-podcast-api-open-podcast-api/refs/heads/main/apis.yml)
+**Areas:** Audio · Episodes · Open Standard · Podcasts · Subscription · Sync
 
-## Scope
+## Open Podcast API on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Open Podcast API is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/open-podcast-api-open-podcast-api/](https://apis.io/providers/open-podcast-api-open-podcast-api/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (6)
 
-- Audio
-- Episodes
-- Open Standards
-- Podcasts
-- Subscriptions
-- Sync
+- [Open Podcast Authentication API](https://apis.io/apis/open-podcast-api-open-podcast-api/authentication-api/) — Authenticate users against an Open Podcast compliant server, establishing the session used for subsequent subscription, action, and device endpoints.
+- [Open Podcast Subscriptions API](https://apis.io/apis/open-podcast-api-open-podcast-api/subscriptions-api/) — Synchronize a user's podcast subscriptions across clients, including adding and removing feed URLs and retrieving the current subscription set per device.
+- [Open Podcast Episode Actions API](https://apis.io/apis/open-podcast-api-open-podcast-api/episode-actions-api/) — Record and synchronize per-episode listening actions such as play, pause, download, delete, and flag, including timestamp and position metadata.
+- [Open Podcast Devices API](https://apis.io/apis/open-podcast-api-open-podcast-api/devices-api/) — Register and manage the devices a user syncs from, allowing servers to track per-device subscription state and last-sync timestamps.
+- [Open Podcast Favorites API](https://apis.io/apis/open-podcast-api-open-podcast-api/favorites-api/) — Synchronize a user's favorited episodes across clients so that liked or starred items remain consistent regardless of which app or device the user is on.
+- [Open Podcast Queue API](https://apis.io/apis/open-podcast-api-open-podcast-api/queue-api/) — Synchronize the user's playback queue (up-next list) across clients, including ordering, additions, and removals of episodes.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-05-02
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Open Podcast Authentication API
+Authentication, trust centre, and vulnerability disclosure.
 
-Authenticate users against an Open Podcast compliant server, establishing the session used for subsequent subscription, action, and device endpoints.
+- [Open Podcast Api Open Podcast Api Domain Security](https://apis.io/security/open-podcast-api-open-podcast-api/open-podcast-api-open-podcast-api-domain-security/)
 
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Authentication, Sessions
+- [Open Podcast Api Open Podcast Api Plans Pricing](https://apis.io/plans/open-podcast-api-open-podcast-api/open-podcast-api-open-podcast-api-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://openpodcastapi.org/)
+Published request limits.
 
-### Open Podcast Subscriptions API
+- [Open Podcast Api Open Podcast Api Rate Limits](https://apis.io/rate-limits/open-podcast-api-open-podcast-api/open-podcast-api-open-podcast-api-rate-limits/)
 
-Synchronize a user's podcast subscriptions across clients, including adding and removing feed URLs and retrieving the current subscription set per device.
+#### FinOps (1)
 
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
+What the API costs to run, by operation.
 
-#### Tags
+- [Open Podcast Api Open Podcast Api Finops](https://apis.io/finops/open-podcast-api-open-podcast-api/open-podcast-api-open-podcast-api-finops/)
 
-- Feeds, Subscriptions, Sync
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://openpodcastapi.org/)
-
-### Open Podcast Episode Actions API
-
-Record and synchronize per-episode listening actions such as play, pause, download, delete, and flag, including timestamp and position metadata.
-
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
-
-#### Tags
-
-- Episodes, Listening Progress, Sync
-
-#### Properties
-
-- [Documentation](https://openpodcastapi.org/)
-
-### Open Podcast Devices API
-
-Register and manage the devices a user syncs from, allowing servers to track per-device subscription state and last-sync timestamps.
-
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
-
-#### Tags
-
-- Devices, Registration, Sync
-
-#### Properties
-
-- [Documentation](https://openpodcastapi.org/)
-
-### Open Podcast Favorites API
-
-Synchronize a user's favorited episodes across clients so that liked or starred items remain consistent regardless of which app or device the user is on.
-
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
-
-#### Tags
-
-- Favorites, Sync
-
-#### Properties
-
-- [Documentation](https://openpodcastapi.org/)
-
-### Open Podcast Queue API
-
-Synchronize the user's playback queue (up-next list) across clients, including ordering, additions, and removals of episodes.
-
-**Human URL:** [https://openpodcastapi.org/](https://openpodcastapi.org/)
-
-#### Tags
-
-- Playback, Queue, Sync
-
-#### Properties
-
-- [Documentation](https://openpodcastapi.org/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://openpodcastapi.org/)
 - [Documentation](https://openpodcastapi.org/)
-- [GitHub Organization](https://github.com/openpodcastapi)
-- [Discussions](https://github.com/orgs/openpodcastapi/discussions)
-- [Matrix Chat](https://matrix.to/#/#openpodcastapi:matrix.org)
+- [GitHub](https://github.com/openpodcastapi)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/open-podcast-api-open-podcast-api/](https://apis.io/providers/open-podcast-api-open-podcast-api/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Open Podcast API: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/open-podcast-api-open-podcast-api/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
